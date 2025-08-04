@@ -1,4 +1,31 @@
 # Site settings
-# 올바른 값으로 수정해야 합니다.
-baseurl: "/CV"  # 내 저장소 이름 (앞에 / 붙이기)
-url: "https://kEEPpp.github.io"  # 내 GitHub Pages 기본 주소
+# 여기에 본인 이력서의 제목을 적으세요 (예: 홍길동의 이력서)
+title: A responsive CV/Resume template
+description: A responsive CV/Resume template.
+# 이 두 줄은 절대 수정하지 마세요!
+baseurl: "/CV"
+url: "https://kEEPpp.github.io"
+
+# User settings
+# 이 아래는 모두 본인의 정보로 자유롭게 수정하세요.
+username: Your Name
+user_description: I am a student, developer, and lifelong learner.
+user_title: Your Title (e.g., Student)
+email: your.email@example.com
+github_username:  kEEPpp
+
+# Build settings (이 아래는 수정하지 않는 것을 권장합니다)
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+
+# Others
+paginate: 10
+paginate_path: "/blog/page:num/"
