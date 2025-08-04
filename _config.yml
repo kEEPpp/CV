@@ -1,0 +1,4 @@
+# Site settings
+# 올바른 값으로 수정해야 합니다.
+baseurl: "/CV"  # 내 저장소 이름 (앞에 / 붙이기)
+url: "https://kEEPpp.github.io"  # 내 GitHub Pages 기본 주소
